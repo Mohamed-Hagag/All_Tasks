@@ -62,6 +62,67 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <label >ID :</label>
 <input type="number" name="id[2]">
 <br>
+<label >Employee4 :</label>
+<input type="text" name="name[3]">
+<label >ID :</label>
+<input type="number" name="id[3]">
+<br>
+<label >Employee5 :</label>
+<input type="text" name="name[4]">
+<label >ID :</label>
+<input type="number" name="id[4]">
+<br>
+<label >Employee6 :</label>
+<input type="text" name="name[5]">
+<label >ID :</label>
+<input type="number" name="id[5]">
+<br>
+<label >Employee7 :</label>
+<input type="text" name="name[6]">
+<label >ID :</label>
+<input type="number" name="id[6]">
+<br>
+<label >Employee8 :</label>
+<input type="text" name="name[7]">
+<label >ID :</label>
+<input type="number" name="id[7]">
+<br>
+<label >Employee9 :</label>
+<input type="text" name="name[8]">
+<label >ID :</label>
+<input type="number" name="id[8]">
+<br>
+<label >Employee10 :</label>
+<input type="text" name="name[9]">
+<label >ID :</label>
+<input type="number" name="id[9]">
+<br>
+<label >Employee11 :</label>
+<input type="text" name="name[10]">
+<label >ID :</label>
+<input type="number" name="id[10]">
+<br>
+<label >Employee12 :</label>
+<input type="text" name="name[11]">
+<label >ID :</label>
+<input type="number" name="id[11]">
+<br>
+<label >Employee13 :</label>
+<input type="text" name="name[12]">
+<label >ID :</label>
+<input type="number" name="id[12]">
+<br>
+<label >Employee14 :</label>
+<input type="text" name="name[13]">
+<label >ID :</label>
+<input type="number" name="id[13]">
+<br>
+<label >Employee15 :</label>
+<input type="text" name="name[14]">
+<label >ID :</label>
+<input type="number" name="id[14]">
+<br>
+<br>
 <select name="sortBy">
         <option value>Sort By</option>
         <option value="name">Name</option>
