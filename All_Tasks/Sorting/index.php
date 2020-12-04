@@ -22,19 +22,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         }
     }
-    if (in_array($_POST['sortBy'], ['name', 'id'])) {
-        $employees = (sortBy($employees, $_POST['sortBy']));
-
-    } else {
-        echo ('Please enter sort by');
-    }
-
-
-    foreach ($employees as $key => $employee) {
-        print "<h2>Name : $employee , ID : $key</h2> ";
-
-    }
-
 }
 
 ?>
@@ -132,3 +119,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </form>
 </body>
 </html>
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+    if (in_array($_POST['sortBy'], ['name', 'id'])) {
+        $employees = (sortBy($employees, $_POST['sortBy']));
+
+    } else {
+        echo ('<h4>Please select sort by</h4>');
+    }
+
+    foreach ($employees as $key => $employee) {
+       echo"<h3><tr><td>$employee</td>=><td>$key</td></tr></h3><br>";
+
+    }
+}
+?>
